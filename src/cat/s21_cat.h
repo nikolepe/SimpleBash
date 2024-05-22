@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <string.h>
 
-typedef struct {
+typedef struct { //структура хранит флаги 
   int flag_n;
   int flag_b;
   int flag_s;
@@ -18,6 +18,6 @@ typedef struct {
 } Flag;
 
 int WorkWithFile(const char *filename, Flag options);
-Flag parseFlag(int argc, char *argv[]);
+Flag ScanFlag(int argc, char *argv[]);
 
 #endif
