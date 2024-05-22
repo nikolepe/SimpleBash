@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <string.h>
 
-typedef struct { //структура хранит флаги 
+typedef struct {  //структура хранит флаги
   int flag_n;
   int flag_b;
   int flag_s;
